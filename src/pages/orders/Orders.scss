@@ -1,0 +1,27 @@
+@import "../../constants/variables.scss";
+
+.orders {
+  padding: 10px;
+  margin-top: 5px;
+
+  .order {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid $primary;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 $primary;
+
+    .header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .items {
+      padding: 10px;
+      background-color: $primary;
+      border-radius: 5px;
+    }
+  }
+}

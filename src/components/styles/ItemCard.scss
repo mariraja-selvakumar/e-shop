@@ -1,0 +1,11 @@
+@import "../../constants/variables.scss";
+
+.item-card {
+  border-color: $primary;
+  width: 100%;
+
+  .stack {
+    background-color: $primary;
+    border-radius: 10px;
+  }
+}
