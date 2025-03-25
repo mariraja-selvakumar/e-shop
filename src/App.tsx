@@ -9,7 +9,6 @@ const PrivateRoutes = lazy(() => import("./routes/PrivateRoutes"));
 const Home = lazy(() => import("./pages/home/Home"));
 const Toast = lazy(() => import("./components/Toast"));
 const Items = lazy(() => import("./pages/items/Items"));
-const Item = lazy(() => import("./pages/item/Item"));
 const CartItem = lazy(() => import("./pages/cartitem/CartItem"));
 const Orders = lazy(() => import("./pages/orders/Orders"));
 const Login = lazy(() => import("./pages/login/Login"));
@@ -22,7 +21,6 @@ const App = () => (
           <Route element={<PrivateRoutes />}>
             <Route element={<Home />} path="home"></Route>
             <Route element={<Items />} path="items" />
-            <Route element={<Item />} path="item" />
             <Route element={<CartItem />} path="cartitem" />
             <Route element={<Orders />} path="orders" />
           </Route>
